@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>it.sauronsoftware</groupId>
+	<artifactId>ftp4j</artifactId>
+	<version>1.6</version>
+	<name>ftp4j</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<description>The ftp4j library implements a Java full-featured FTP client. With ftp4j embedded in your application you can:
+        transfer files (upload and download), browse the FTP site (directory listing), create, delete, rename and move
+        directories and files.</description>
+</project>
