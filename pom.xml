@@ -11,4 +11,28 @@
 	<description>The ftp4j library implements a Java full-featured FTP client. With ftp4j embedded in your application you can:
         transfer files (upload and download), browse the FTP site (directory listing), create, delete, rename and move
         directories and files.</description>
+	
+	
+	 <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      
+    </plugins>
+  </build>
 </project>
